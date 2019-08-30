@@ -5,10 +5,9 @@
   align-items: center;
 }
 
-/* .app-logo, img {
+.app-logo, img {
   width: 140px;
-  height: 140px;
-} */
+}
 
 .app-h1 {
   font-size: 70px;

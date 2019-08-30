@@ -1,12 +1,37 @@
 import React from 'react'
-import logo from './images/firescriptlogo.png'
 import './App.css'
+import styled from 'styled-components'
+
+// import { Route } from 'react-router-dom'
+
+// import LandingPage from './components/LandingPage/LandingPage'
+// import Login from './components/Login/Login'
+// import PrivateRoute from './components/PrivateRoute/PrivateRoute'
+// import HomePage from './components/HomePage/HomePage'
+
+const Heading = styled.div`background: red;`
+
 
 function App() {
   return (
     <div className='app'>
-        <img src={logo} className='app-logo' alt='logo' />
-        <h1 className='app-h1'>Welcome to FireScript!</h1>
+      <Heading>Header</Heading>
+      {/* <h1>Heading</h1> */}
+          {/* <Route
+          path='/'
+          exact
+          component={LandingPage}
+        />
+        <Route
+          path='/login'
+          render={props => (
+            <Login {...props} />
+          )}
+        />
+        <PrivateRoute
+          path="/protected"
+          component={HomePage}
+        /> */}
     </div>
   )
 }
