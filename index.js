@@ -9,5 +9,5 @@ const port = process.env.PORT
 
 // Let dev know server is listening 👂
 server.listen(port, () => {
-  console.log(`\n* Server Running on http://localhost:${port} *\n`)
+  console.log(`\n* Server is running on http://localhost:${port} *\n`)
 })

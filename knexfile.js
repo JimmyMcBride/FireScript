@@ -1,5 +1,5 @@
 module.exports = {
-
+  // comment
   development: {
     client: 'sqlite3',
     useNullAsDefault: true,
